@@ -1,4 +1,6 @@
 import scrapy
+from ebooks.items import EbookItem
+from scrapy.loader import ItemLoader
 
 BASE_URL = 'https://books.toscrape.com/'
 
