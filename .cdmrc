@@ -1,2 +1,2 @@
-terminal-one: pip install scrapy && pip install scrapy-playwright && playwright install && clear
+terminal-one: pip install scrapy && clear
 tabs: ["quotes/quotes/spiders/quote.py"]
