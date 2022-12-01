@@ -1,1 +1,2 @@
-terminal: pip install scrapy
+terminal-one: echo "Good Luck!" && pip install scrapy
+tabs: ["ebooks/ebooks/spiders/ebook.py"]
