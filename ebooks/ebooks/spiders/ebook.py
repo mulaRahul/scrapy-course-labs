@@ -1,9 +1,10 @@
 import scrapy
 
+BASE_URL = 'https://books.toscrape.com/'
 
 class EbookSpider(scrapy.Spider):
     name = 'ebook'
-    start_urls = ['https://books.toscrape.com/']
+    start_urls = [BASE_URL]
 
     def parse(self, response):
         ebooks = response.css("article.product_pod")
