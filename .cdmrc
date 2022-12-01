@@ -1,6 +1,1 @@
-
 terminal: pip install scrapy
-
-run-button: scrapy crawl ebook -o output.json
-
-tabs: ["./ebooks/ebooks/spiders/ebook.py"]
