@@ -1,6 +1,6 @@
-BOT_NAME = 'ebooks'
+BOT_NAME = 'quotes'
 
-SPIDER_MODULES = ['ebooks.spiders']
-NEWSPIDER_MODULE = 'ebooks.spiders'
+SPIDER_MODULES = ['quotes.spiders']
+NEWSPIDER_MODULE = 'quotes.spiders'
 
 ROBOTSTXT_OBEY = True
