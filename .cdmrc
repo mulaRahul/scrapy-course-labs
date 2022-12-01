@@ -1,2 +1,2 @@
-terminal-one: echo "Installing scrapy in your code lab." && pip install scrapy && clear
-tabs: ["ebooks/ebooks/spiders/ebook.py"]
+terminal-one: pip install scrapy && clear
+tabs: ["quotes/quotes/spiders/quote.py"]
